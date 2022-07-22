@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>level 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ece33f4f72.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>World Countries Data</h1>
+      <h3>Currently, we have 250 countries</h3>
+      <p id="search"></p>
+    </header>
+    <div id="input-wrapper">
+      <input
+        type="text"
+        placeholder="Search countries by name, city and languages"
+      />
+      <br />
+      <a  class="active" href="index.html">NAME <i class="fa-solid fa-arrow-down-long"></i
+        ></a>
+      <a href="langSearch.html">LANGUAGES</a>
+      <a href="#population">POPULATION</a>
+      <a href="chart.html"><i class="fa-solid fa-chart-column"></i></a>
+    </div>
+
+    <main></main>
+    <div id="population"><p>World population</p>
+      <div id="world">
+        <p class="wcountry">World</p>
+        <div class="wbar-box"><div class="wbar"></div></div>
+        <p class="wfigure">7693165599</p>
+      </div>
+    </div>
+    <script type="module" src="./modules/main.js"></script>
+  </body>
+</html>
